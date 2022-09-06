@@ -1,0 +1,130 @@
+.search{
+    display: flex;
+    width: 100%;
+    margin-top: 89px;
+}
+.logo-icerik{
+    margin: auto;
+}
+.searchbox{
+    margin-top: 20px;
+}
+.searchbox input{
+    
+    padding-left: 40px;
+    display: flex;
+    width: 450px;
+    height: 38px;
+    margin: 0 auto;
+    border-radius: 24px;
+    border-color: #5f6368;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+}
+.searchbox input:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+.button-boyut input[type="submit"]{
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.button-boyut input[type="submit"]:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+}
+.navbar ul{
+    list-style-type: none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    padding: 0px 13px 0px 13px;
+    position: relative;
+    display: flex;
+}
+.navbar li>a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar li:hover{
+    text-decoration: underline;
+}
+.sol{
+    text-align: left;
+    float: left!important;
+}
+.sag{
+    text-align: right;
+    float: right!important;
+}
+
+footer{  
+    color:#222;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;  
+    width: 100%;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+footer ul{
+    margin: 0!important;
+    padding: 0px 10px 0px 5px;
+    display: flex;
+    list-style-type: none;
+}
+footer a{
+    color:#5f6368;
+    text-align: center;
+    padding: 0px 10px 0px 25px;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.wFncld {
+    color: #9AA0A6;
+    height: 20px;
+    width: 20px;
+    margin-top: 11px;
+    margin-left: 11px;
+  }
+  .z1asCe {
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: absolute;
+    width: 24px;
+  }
+.searchicon-searchbox{
+    display: flex;
+    position: relative;
+}
